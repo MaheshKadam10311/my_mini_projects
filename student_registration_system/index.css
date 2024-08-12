@@ -1,0 +1,185 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(assets/bg-img.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.1);
+    justify-content: space-between;
+}
+
+.left-section {
+    width: 35%;
+    margin-left: 40px;
+}
+
+.right-section {
+    width: 50%;
+    margin-right: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    color: #6a28a7;
+    font-size: 40px;
+}
+
+header p {
+    color: #666;
+}
+
+.form-section {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+h2 {
+    color: #6a28a7;
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: 32px;
+    font-weight:750;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #6a28a7;
+    font-weight: normal;
+}
+
+.division{
+
+    background-color:#bf9edfb9;
+    height: 500px;
+    width:5px;
+    border-radius: 10px;
+}
+
+input {
+    width: 70%;
+    padding: 8px;
+    text-align: center;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    background-color: #d6b8f1;
+
+}
+
+input:focus{
+
+outline: 2px solid #6a28a7;
+
+}
+
+button {
+    padding: 10px;
+    background-color: #6a28a7;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 73%;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #54168d;
+}
+
+.display-section {
+    margin-top: 30px;
+}
+
+.table-container {
+    max-height: 350px;
+    overflow-y: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #d6b8f1;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #6a28a7;
+    color:white;
+}
+
+.actions button {
+    margin-right: 5px;
+    margin-bottom: 5px;
+    padding: 5px 10px;
+}
+
+button.edit {
+    background-color: #6a28a7;
+}
+
+button.edit:hover {
+    background-color: #54168d;
+}
+
+button.delete {
+    background-color: #dc3545;
+    width: 60px;
+}
+
+button.delete:hover {
+    background-color: #c82333;
+}
+
+@media(width<840px){
+
+    .container{
+
+
+     display: flex;
+     flex-direction: column;
+    }
+
+    .division{
+
+        display: none;
+    }
+
+    .left-section{
+
+        width: 80%;
+    }
+
+    .right-section{
+
+        width:80%;
+        margin-left: 30px;
+    }
+}

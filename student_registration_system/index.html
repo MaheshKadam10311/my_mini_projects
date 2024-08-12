@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Flow - Student Registration System</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="assets/image.png">
+</head>
+<body>
+    <div class="container">
+        <!-- Left Section: Form Section -->
+        <div class="left-section">
+            <header>
+                <h1>Student Flow</h1>
+                <p>A Student Registration System. Register, view, edit, and delete student records seamlessly.</p>
+            </header>
+
+            <section class="form-section">
+
+                <form id="studentForm">
+                    <label for="studentName">Student Name:</label>
+                    <input type="text" id="studentName" required>
+
+                    <label for="studentId">Student ID:</label>
+                    <input type="number" id="studentId" required>
+
+                    <label for="email">Email ID:</label>
+                    <input type="email" id="email" required>
+
+                    <label for="contactNo">Contact No:</label>
+                    <input type="number" id="contactNo" required>
+
+                    <button type="submit">Add Student</button>
+                </form>
+            </section>
+        </div>
+  <div class="division"></div>
+        <!-- Right Section: Display Section -->
+        <div class="right-section">
+            <section class="display-section">
+                <h2>Registered Students</h2>
+                <div class="table-container">
+                    <table id="studentTable">
+                        <thead>
+                            <tr>
+                                <th>Student Name</th>
+                                <th>Student ID</th>
+                                <th>Email ID</th>
+                                <th>Contact No.</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody id="studentTableBody">
+                            <!-- Rows will be added dynamically here -->
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
