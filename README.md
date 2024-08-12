@@ -1,4 +1,4 @@
-Welcome to my\_miniprojects Repository
+Welcome to /my\_mini_projects Repository
 --------------------------------------
 
 This repository is a collection of various projects I've developed across different domains. It includes a range of mini-projects that demonstrate my skills and creativity using various technologies. From front-end web development to other technical areas, these projects highlight my progress and experimentation in different fields.
