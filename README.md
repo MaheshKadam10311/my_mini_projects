@@ -1,7 +1,9 @@
 Welcome to my\_miniprojects Repository
 --------------------------------------
 
-This repository is a collection of various projects I've developed across different domains. It includes a range of mini-projects that demonstrate my skills and creativity using various technologies. From front-end web development to other technical areas, these projects highlight my progress and experimentation in different fields. 1. Student Flow Management System (hoisted link): https://student-flow-studentregistrationsys.netlify.app/
+This repository is a collection of various projects I've developed across different domains. It includes a range of mini-projects that demonstrate my skills and creativity using various technologies. From front-end web development to other technical areas, these projects highlight my progress and experimentation in different fields.
+
+1. Student Flow Management System (hoisted link): https://student-flow-studentregistrationsys.netlify.app/
 
 ### Skills
 
